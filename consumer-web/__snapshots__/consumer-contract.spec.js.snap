@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Movies Service When a GET request is made to /movies it should return all movies 1`] = `
+[
+  {
+    "id": 1,
+    "name": "My movie",
+    "year": 1999,
+  },
+]
+`;
+
 exports[`Movies Service When a request to list all movies is made should return the correct data 1`] = `
 [
   {
